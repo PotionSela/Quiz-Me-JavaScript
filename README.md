@@ -1,6 +1,7 @@
 # Quiz Me JavaScript
 A JavaScript Quiz that tests your knowledge of JavaScript!
 
+![ScreenshotofQuiz](./Assets/images/Screenshot.jpg)
 ## Overview
 
 This is a simple JavaScript game that allows players to test their skills and records their high scores. The game is built using HTML, CSS, and JavaScript.
