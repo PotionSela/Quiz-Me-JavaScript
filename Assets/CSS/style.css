@@ -1,9 +1,11 @@
+/* CSS for the body element */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f2f2f2;
 }
 
+/* CSS for start and submit buttons with IDs 'start-button' and 'submit-score' */
 #start-button, #submit-score {
     background-color: #4CAF50;
     color: white;
@@ -14,6 +16,7 @@ body {
     border-radius: 5px;
 }
 
+/* CSS for a container element with class 'container' */
 .container {
     background-color: #f1f1f1;
     padding: 20px;
@@ -26,6 +29,7 @@ body {
     height: 100vh;
 }
 
+/* CSS for a generic button with class 'button' */
 .button {
     background-color: #4CAF50;
     color: white;
@@ -36,10 +40,12 @@ body {
     border-radius: 5px;
 }
 
+/* Hover effect for the generic button */
 .button:hover {
     background-color: #45a049;
 }
 
+/* CSS for an element with the ID 'quiz-container' */
 #quiz-container {
     background-color: #f1f1f1;
     padding: 20px;
@@ -48,6 +54,7 @@ body {
     display: none;
 }
 
+/* CSS for elements with class 'choice' (used for quiz options) */
 .choice {
     background-color: #3498db;
     color: white;
@@ -58,25 +65,30 @@ body {
     border-radius: 5px;
 }
 
+/* Hover effect for elements with class 'choice' */
 .choice:hover {
     background-color: #2980b9;
 }
 
+/* CSS for an element with the ID 'timer' */
 #timer {
     font-size: 24px;
     margin: 10px;
 }
 
+/* CSS for an element with the ID 'high-scores' */
 #high-scores {
     display: none;
     margin: 20px;
 }
 
+/* CSS for text input elements */
 input[type="text"] {
     padding: 5px;
     border-radius: 5px;
 }
 
+/* CSS for an element with the ID 'reset-button' */
 #reset-button {
     display: none;
     background-color: #e74c3c;
@@ -88,6 +100,7 @@ input[type="text"] {
     border-radius: 5px;
 }
 
+/* Hover effect for the element with the ID 'reset-button' */
 #reset-button:hover {
     background-color: #c0392b;
 }

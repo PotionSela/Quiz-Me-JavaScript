@@ -11,9 +11,8 @@ const initialsInput = document.getElementById("initials");
 const submitButton = document.getElementById("submit-score");
 const highScoresContainer = document.querySelector(".high-scores-container");
 const highScoresList = document.getElementById("high-scores-list");
-// const goBackButton = document.getElementById("go-back-button");
-// const clearButton = document.getElementById("clear-button");
 const feedbackDisplay = document.getElementById("feedbackDisplay");
+
 // Create variables for user initials and score
 let userInitials = "";
 let userScore = 0;
