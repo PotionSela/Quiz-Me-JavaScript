@@ -1,5 +1,6 @@
 const goBackButton = document.getElementById("go-back-button"); // Go back button
 const clearButton = document.getElementById("clear-button"); // Clear scores button
+const highScoresList = document.getElementById("high-scores-list");
 
 // Function to retrieve and display high scores
 function displayHighScores() {
@@ -24,20 +25,13 @@ function displayHighScores() {
 displayHighScores();
 
 // Event listeners
-document.getElementById("go-back-button").addEventListener("click", function () {
-    // Redirect to the quiz page or another page
-    window.location.href = "/index.html";
-});
 
-document.getElementById("clear-button").addEventListener("click", function () {
+document.querySelector(".button.clear-button").addEventListener("click", function () {
     // Clear high scores logic
-    displayHighScores();
+    localStorage.removeItem("highScores"); // Remove the high scores from local storage
+    highScoresList.innerHTML = ""; // Clears the high scores list on the page
 });
 
 goBackButton.addEventListener("click", function () {
     location.reload(); // Reload the page to start over
-});
-
-clearButton.addEventListener("click", function () {
-    highScoresList.innerHTML = ""; // Clears the high scores list
 });

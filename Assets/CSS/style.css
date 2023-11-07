@@ -42,7 +42,17 @@ body {
 
 /* Hover effect for the generic button */
 .button:hover {
-    background-color: #45a049;
+    background-color: #4530a0;
+}
+
+#go-back-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 /* CSS for an element with the ID 'quiz-container' */
