@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coding Quiz Challenge</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css" />
+    <link rel="high-scores" type="html" href="./high-scores.html" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="start-button" class="button">Start Quiz</div>
+        <div id="quiz-container">
+        <!-- <h1>Question 1:</h1> -->
+        <div class="question"></div>
+        <div class="answers">
+        </div>
+        <div id="question-number" class="questionText">What is JavaScript?</div>
+        <div id="answersContainer" class="answers">A programming language</div>
+        <div id="choices"></div>
+        <div id="message" class="message"></div>
+    </div>
+    <div id="timer">Time: <span id="time-left">60</span> seconds</div>
+    <div id="high-scores-container">
+        <input type="text" id="initials" placeholder="Enter your initials">
+        <button id="submit-score" class="button">Submit</button>
+        <div id="reset-button" class="button">Reset Quiz</div>
+        <div id="choicesDisplay"></div>
+        <div id="feedbackDisplay"></div>
+    </div>
+    </div>
+    <script src="./Assets/JS/script.js"></script>
+    <script src="./Assets/JS/high-scores.js"></script>
+</body>
+
+</html>
